@@ -12,3 +12,4 @@ img = img.resize((int(img.width * 0.3), int(img.height * 0.3)))
 
 #Converting and saving image to a smaller quality and different format
 img.convert('RGB').save("resized_image3.jpg", "JPEG", optimize=True, quality=70)
+print("✅ Image Resizer script ran successfully.")
